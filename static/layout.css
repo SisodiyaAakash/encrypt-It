@@ -1,0 +1,88 @@
+.home {
+  width: 100%;
+}
+.title {
+  font-size: calc(24px + 0.4vw);
+}
+.rand-pass {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5rem 0;
+}
+.img img {
+  width: 450px;
+}
+.rand-gen {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.pass-disp {
+  width: 350px;
+  padding: 2px;
+  font-size: calc(15px + 0.4vw);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #cccccc;
+  border-radius: 50px;
+}
+.pass-disp .password {
+  max-width: 80%;
+  margin-left: 1rem;
+  overflow-x: scroll;
+  border: none;
+  outline: none;
+  font-size: calc(16px + 0.4vw);
+}
+.pass-disp .password::-webkit-scrollbar {
+  display: none;
+}
+.pass-disp svg {
+  width: 20px;
+  fill: #adadad;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+.pass-disp svg:hover {
+  cursor: pointer;
+  fill: #ffffff;
+  background-color: #4333ff;
+}
+.copy-btn svg {
+  width: 16px;
+  margin-right: 0.5rem;
+}
+.copy-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background-color: #4333ff;
+  color: #ffffff;
+  border: 1px solid #4333ff;
+  border-radius: 25px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.copy-btn:hover {
+  background-color: transparent;
+  color: #4333ff;
+}
+
+.length-container {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+.length-container label {
+  margin-right: 0.5rem;
+}
+.length-container input[type="range"] {
+  width: 100%;
+}
